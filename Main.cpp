@@ -36,7 +36,7 @@ double calculate(double from, double to, double step, double& x, int n)
             double p = 1;
             for (int j = i; j <= n - 1; j++)
             {
-                p *= (pow(i, i) + j);
+                p *= (pow(i, i) + (2*j);
             }
             y += p;
         }
@@ -47,7 +47,7 @@ double calculate(double from, double to, double step, double& x, int n)
         double y = 0;
         for (int i = 1; i <= n - 2; i++)
         {
-            y += (i - x);
+            y += (i + x);
         }
         return y;
     }
